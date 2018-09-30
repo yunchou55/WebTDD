@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ou.webtdd.TemperatureConverActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter temperature" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/celsius_layout"
+        android:textSize="24px"
+        android:layout_gravity="left"
+        android:text="Celsius"/>
+    <com.example.ou.webtdd.EditNumber
+        android:id="@+id/celsius"
+        android:layout_marginLeft="6px"
+        android:layout_marginRight="6px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="right|center_vertical"
+        android:text="EditText"/>
+    <TextView
+        android:id="@+id/fahrenheit_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24px"
+        android:layout_gravity="left"
+        android:text="Fahrenheit"/>
+    <com.example.ou.webtdd.EditNumber
+        android:id="@+id/fahrenheit"
+        android:layout_marginLeft="6px"
+        android:layout_marginRight="6px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="right|center_vertical"
+        android:text="EditTect"/>
+
+</LinearLayout>
